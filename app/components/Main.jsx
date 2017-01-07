@@ -12,7 +12,6 @@ class Main extends React.Component {
                 <div>
                     <Navigation/>
                     <div>
-                        <p>Main.jsx Rendered</p>
                         {this.props.children}
                     </div>
                 </div>
