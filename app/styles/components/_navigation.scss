@@ -1,3 +1,9 @@
 .tob-bar {
   background-color: $nav-background;
 }
+
+.top-bar {
+  .active-link {
+    font-weight: bold;
+  }
+}
