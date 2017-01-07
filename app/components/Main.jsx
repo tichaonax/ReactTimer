@@ -1,4 +1,5 @@
 var React = require('react');
+var Navigation = require('Navigation');
 
 class Main extends React.Component {
     constructor(props) {
@@ -9,6 +10,7 @@ class Main extends React.Component {
         return (
             <div>
                 <div>
+                    <Navigation/>
                     <div>
                         <p>Main.jsx Rendered</p>
                         {this.props.children}
