@@ -9,9 +9,9 @@ class Main extends React.Component {
     render() {
         return (
             <div>
-                <div>
-                    <Navigation/>
-                    <div>
+                <Navigation/>
+                <div className="row">
+                    <div className="column small-centered medium-6 large-4" >
                         {this.props.children}
                     </div>
                 </div>
